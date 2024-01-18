@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from sys import argv
-    
+
 if __name__ == "__main__":
     i = len(argv) - 1
     if i == 0:
@@ -10,4 +10,4 @@ if __name__ == "__main__":
     else:
         print("{} arguments:".format(i))
     for j in range(i):
-        print("{}: {}".format(j + 1, argv[j + 1]))
+        print("{}: {}".format(j, argv[j + 1]))
