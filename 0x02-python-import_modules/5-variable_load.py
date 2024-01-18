@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-import variable_load_5.py
-print(a.variable_load_5.py)
+if__name__ == "__main__":
+from variable_load_5.py import a
+print(a)
