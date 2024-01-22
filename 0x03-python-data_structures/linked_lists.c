@@ -15,7 +15,8 @@ size_t print_listint(const listint_t *h)
 	current = h;
 	n = 0;
 	while (current != NULL)
-	{					        printf("%i\n", current->n);
+	{
+	printf("%i\n", current->n);
 	current = current->next;
 	n++;
 	}
@@ -48,7 +49,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	else
 	{
 		while (current->next != NULL)
-									current = current->next;
+		current = current->next;
 		current->next = new;
 	}
 
