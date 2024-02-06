@@ -2,8 +2,7 @@
 
 """Define Class Square"""
 
-
-Class Square:
+class Square:
     """initialization of an instance with size attribute
     """
     def __init__(self, size):
