@@ -24,6 +24,7 @@ class Square:
         elif value < 0:
             raise ValueError("size must be >= 0")
         self.__size = value
+
     """ position(self) - retreives the private attribute position (Getter)"""
     @prorepty
     def position(self):
@@ -38,12 +39,15 @@ class Square:
         for num in value:
             if not isinstance(num, int) or num < 0:
                 raise TypeError("position must be a tuple of "
-                "2 positive integers")
+                                "2 positive integers")
+
         self.__position = value
+
     """Public instance method:
     Area: returns area of a square """
     def area(self):
         return self.__size * self.__size
+    
     """Public instance method:
        my_print: returns the area of a square"""
     def my_print(self):
