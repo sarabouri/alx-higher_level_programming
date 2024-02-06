@@ -9,4 +9,3 @@ class Square:
         """Initialization of the square size"""
         self.__size = size
         pass
-
