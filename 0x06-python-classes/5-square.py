@@ -4,16 +4,15 @@
 
 
 Class Square:
-    """initialization of an instance
-    with size attribute
+    """initialization of an instance with size attribute
     """
-    def __init__(self, size=0):
+    def __init__(self, size):
         self.size = size
     """ size(self) - retrievess the private attribute size (gitter)"""
     @property
     def size(self):
+        """set the actual size of  the square"""
         return self.__size
-
     """def size(self, value): setter for
     private attribute size (setter) """
     @size.setter
