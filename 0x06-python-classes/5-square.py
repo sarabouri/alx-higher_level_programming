@@ -2,6 +2,7 @@
 
 """Define Class Square"""
 
+
 class Square:
     """initialization of an instance with size attribute
     """
