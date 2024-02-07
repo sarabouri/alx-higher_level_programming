@@ -26,7 +26,7 @@ class Square:
         self.__size = value
 
     """ position(self) - retreives the private attribute position (Getter)"""
-    @prorepty
+    @property
     def position(self):
         return self.__position
 
