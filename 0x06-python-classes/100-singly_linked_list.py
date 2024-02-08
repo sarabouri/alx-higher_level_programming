@@ -19,7 +19,7 @@ class Node:
         @property
         def data(self):
             """Get/set the data of the Node."""
-            return (self.__data)
+            return self.__data
 
         @data.setter
         def data(self, value):
@@ -30,7 +30,7 @@ class Node:
         @property
         def next_node(self):
             """Get/set the next node of the Node."""
-            return (self.__next_node)
+            return self.__next_node
 
         @next_node.setter
         def next_node(self, value):
@@ -77,4 +77,4 @@ class SinglyLinkedList:
         while tmp is not None:
             value.append(str(tmp.data))
             tmp = tmp.next_node
-        return ('\n'.join(values))
+        return '\n'.join(values)
