@@ -20,9 +20,9 @@ class Rectangle:
             width (int): The width of the new rectangle.
             height (int): The height of the new rectangle.
         """
-            type(self).number_of_instances += 1
-            self.width = width
-            self.height = height
+        type(self).number_of_instances += 1
+        self.width = width
+        self.height = height
 
     @property
     def width(self):
