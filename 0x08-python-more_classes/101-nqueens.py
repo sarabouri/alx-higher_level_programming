@@ -48,7 +48,7 @@ def get_solution(board):
 
 def xout(board, row, col):
     """X out spots on a chessboard.
-    
+
     All spots where non-attacking queens can no
     longer be played are X-ed out.
 
@@ -113,7 +113,7 @@ def recursive_solve(board, row, queens, solutions):
     if queens == len(board):
         solutions.append(get_solution(board))
         return (solutions)
-    
+
     for c in range(len(board)):
         if board[row][c] == " ":
             tmp_board = board_deepcopy(board)
