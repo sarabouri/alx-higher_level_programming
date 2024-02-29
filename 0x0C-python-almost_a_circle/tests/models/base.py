@@ -6,7 +6,7 @@ class Base:
     '''A representation of the base of our OOP hierarchy'''
 
     __nb__objects = 0
-    
+
     def __init__(self, id=None):
         '''Constructor'''
         if id is nor None:
